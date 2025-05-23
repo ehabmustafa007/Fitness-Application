@@ -1,0 +1,36 @@
+name: workout_timer
+description: A Flutter-based workout timer app with multilingual support and exercise tracking functionality
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.0.5
+  shared_preferences: ^2.1.1
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.5
+  percent_indicator: ^4.2.3
+  flutter_svg: ^2.0.7
+  uuid: ^3.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
